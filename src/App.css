@@ -15,3 +15,8 @@ body {
 .border-container {
   border: 1px solid #551e53;
 }
+@media screen and (max-width: 768px) {
+  .border-container {
+    width: 70%;
+  }
+}
